@@ -1,0 +1,11 @@
+Composite Pattern este util pentru a avea o structura ierarhica, pentru a reprezenta mai multe obiecte de un anumit tip, toate elementele mostenesc interfata component. 
+Am folosit acest patern pentru a reprezenta capitolele, subcapitolele, imagini, paragrafe prin interfata element.
+
+Clasa Section implementeaza interfata comuna Element, iar pentru ca aceasta contine mai multe paragrafe, imagini si tabele are ca atribut o listă de elemente care poate contine la randul ei o alta lista de elemente. Sectiunea poate fi asociata cu un folder, care poate contine alte foldere sau fisiere.
+
+Pentru interfata Element am adaugat metode da ADD si REMOVE care au ca parametrii un element și am implementat pentru fiecare clasa care implementeaza interfata Element. Image, Table si Paragraph sunt considerate frunze si nu trebuie implementare pentru aceste metode.
+
+In clasa Book am modificat createChapter in addContent care va adauga structuri care mostenesc interfata element.
+
+Pentru a aborda si problema fisierelor multiple, am ales sa implementez abordarea de la laborator. O metoda de cautare care primeste un element si il compara cu elementul curent. Pentru clasa Sectiune metoda find trebuie sa verifice daca elementul primit se afla in sectiunea respectiva.
+
