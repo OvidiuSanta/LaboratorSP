@@ -1,0 +1,3 @@
+Proxy Pattern poate fi folosit pt securitate cash-ing, log uri de date, dar in general este folosit pentru a incarca un obiect foarte mare si nu vrem sa asteptam mult. Se face un proxy care este un place holder pt obiect si care incarca in spate obiectul, iar cand este gata trimite apelurile prin el. 
+
+Am creat o clasa ImageProxy care are o imagine ca atribut. Deoarece avem nevoie de o imagine reala creeam metoda privata LoadImage care doar incarca imaginea. Clasa dimension a fost creata doar pentru a defini dimensiunile imaginilor.
