@@ -1,0 +1,2 @@
+Scopul principal sablonului Visitor este efectuarea de operații asupra elementelor unei structuri de obiecte. Atunci când este nevoie să definim o nouă operațiune, nu va trebui să ne atingem de elementele existente, clasele existente, va trebui doar să implementam operațiunea și să o utilizam.
+Merge foarte bine cu composite pentru ca ne ajuta sa navigam foarte usor printre obiecte si sa implementam pentru fiecare obiect un anumit comportament.
