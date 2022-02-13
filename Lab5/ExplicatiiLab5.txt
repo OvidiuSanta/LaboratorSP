@@ -1,0 +1,8 @@
+Strategy Pattern este foarte util pentru a izola lucruri variabile si pentru a evita bug uri, astfel putem ascunde si detalii de implementare. Cu ajutorul acestui pattern respectam unul din principiile SOLID: o clasa face o singura functionalitate. Cu ajutorul acestui pattern putem scoate din functionalitati si ne folosim de compozitie si polimorfism pentru a face ce vrem. 
+
+Am adaugat aliniere stanga, dreapta si centrat pentru paragrafe.
+Am creat mai multe tipuri de imagini: BMP si JPG. ImageLoaderFactory este o clasa de creare a claselor JPG/BMP ImageLoader.
+
+
+
+
