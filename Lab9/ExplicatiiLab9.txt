@@ -1,0 +1,7 @@
+Command pattern se foloseste cand clasele fac doar o singura chestie (ex copiere). Acest design pattern ne ofera posibilitatea sa stocam functii care se repeta ulterior de mai multe ori.
+O solicitare este inclusă într-un obiect sub forma unei comenzi și transmisă obiectului invocator. Obiectul invocator caută obiectul adecvat care poate gestiona această comandă și transmite comanda obiectului corespunzător care o execută.
+
+Singleton pattern - Acest model implică o singură clasă care este responsabilă pentru crearea unui obiect, asigurându-se în același timp că se creează un singur obiect. Această clasă oferă o modalitate de accesare a singurului său obiect, care poate fi accesat direct, fără a fi necesară instanțierea obiectului clasei.
+Folosim acest pattern pentru a crea un obiect care tine o instanta unica a cartii si care se poate modifica. DocumentManager este clasa care are acest rol.
+
+OpenCommand va crea o noua carte care va fi transmisa, SaveCommand salveaza o noua sectiune in carte, iar StatisticsCommand arata statisticile despre carte din CountContentVisitor.
